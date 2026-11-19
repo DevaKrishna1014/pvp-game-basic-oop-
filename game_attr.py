@@ -3,7 +3,7 @@ import random
 class Game:
     def __init__(self,name):
         self.name=name
-        self.hp=100
+        self.hp=00
         
     def health_cutter(self,a):
         self.hp-=a
@@ -24,7 +24,7 @@ class Warrior(Game):
                 print(f"\n\n{victim.name}'s hp ={victim.hp +attack1}➡️  {victim.hp}\n\n\t")
                 
             else:
-                print(f'\n\n\n\n{victim.name} Dies💀💀')
+                print(f'\n\n\n\n{victim.name} Dies Ahhhhhh Shammeeeeekk  ❤️❤️❤️❤️❤️')
                 
         elif att_level==2: 
             victim.health_cutter(attack2)
@@ -33,7 +33,7 @@ class Warrior(Game):
                 print(f"\n\n{victim.name}'s hp ={victim.hp +attack2}➡️  {victim.hp}\n\n\t")
                 
             else:
-                print(f'\n\n\n\n{victim.name} Dies💀💀')
+                print(f'\n\n\n\n{victim.name}  Ahhhhhh Shammeeeeekk  ❤️❤️❤️❤️❤️')
                 
         elif att_level==3: 
             victim.health_cutter(attack3)
@@ -42,7 +42,7 @@ class Warrior(Game):
                 print(f"\n\n{victim.name}'s hp ={victim.hp +attack3}➡️  {victim.hp}\n\n\t")
                 
             else:
-                print(f'\n\n\n\n{victim.name} Dies💀💀')
+                print(f'\n\n\n\n{victim.name}  Ahhhhhh Shammeeeeekk  ❤️❤️❤️❤️❤️')
                 
 
         
@@ -64,7 +64,7 @@ class Mage(Game):
                             print(f"\n\n{victim.name}'s hp ={victim.hp +attack1}➡️  {victim.hp}\n\n\t")
                             
                         else:
-                            print(f'\n\n\n\n{victim.name} Dies💀💀')
+                            print(f'\n\n\n\n{victim.name}  Ahhhhhh Shammeeeeekk  ❤️❤️❤️❤️❤️')
                             
                     elif att_level==2: 
                         victim.health_cutter(attack2)
@@ -73,7 +73,7 @@ class Mage(Game):
                             print(f"\n\n{victim.name}'s hp ={victim.hp +attack2}➡️  {victim.hp}\n\n\t")
                             
                         else:
-                            print(f'\n\n\n\n{victim.name} Dies💀💀')
+                            print(f'\n\n\n\n{victim.name}  Ahhhhhh Shammeeeeekk  ❤️❤️❤️❤️❤️')
                             
                     elif att_level==3: 
                         victim.health_cutter(attack3)
@@ -82,7 +82,7 @@ class Mage(Game):
                             print(f"\n\n{victim.name}'s hp ={victim.hp +attack3}➡️  {victim.hp}\n\n\t")
                             
                         else:
-                            print(f'\n\n\n\n{victim.name} Dies💀💀')
+                            print(f'\n\n\n\n{victim.name}  Ahhhhhh Shammeeeeekk  ❤️❤️❤️❤️❤️')
 
 
     
@@ -104,7 +104,7 @@ class Archer(Game):
                             print(f"\n\n{victim.name}'s hp ={victim.hp +attack1}➡️  {victim.hp}\n\n\t")
                             
                         else:
-                            print(f'\n\n\n\n{victim.name} Dies💀💀')
+                            print(f'\n\n\n\n{victim.name}  Ahhhhhh Shammeeeeekk  ❤️❤️❤️❤️❤️')
                             
                     elif att_level==2: 
                         victim.health_cutter(attack2)
@@ -113,7 +113,7 @@ class Archer(Game):
                             print(f"\n\n{victim.name}'s hp ={victim.hp +attack2}➡️  {victim.hp}\n\n\t")
                             
                         else:
-                            print(f'\n\n\n\n{victim.name} Dies💀💀')
+                            print(f'\n\n\n\n{victim.name}  Ahhhhhh Shammeeeeekk  ❤️❤️❤️❤️❤️')
                             
                     elif att_level==3: 
                         victim.health_cutter(attack3)
@@ -122,7 +122,7 @@ class Archer(Game):
                             print(f"\n\n{victim.name}'s hp ={victim.hp +attack3}➡️  {victim.hp}\n\n\t")
                             
                         else:
-                            print(f'\n\n\n\n{victim.name} Dies💀💀')
+                            print(f'\n\n\n\n{victim.name}  Ahhhhhh Shammeeeeekk  ❤️❤️❤️❤️❤️')
 
 
     
